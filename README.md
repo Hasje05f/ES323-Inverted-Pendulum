@@ -16,7 +16,6 @@
 
 
 ## Inverted Pendulum  
-# Inverted pendulum
 
 **Description:**  
 An inverted pendulum consists of a cart on which a rod is fixed. The rod can rotate around an axis perpendicular to the direction of motion of the cart. The goal is to maintain the rod vertically, using the motion of the cart to compensate for external forces and maintain equilibrium. In other words, in steady-state, the rod is vertical and makes an angle θ = 0 with the vertical. Obviously that situation is not stable and the goal of the controller is to maintain θ = 0 by moving the cart. There is a sensor measuring the angle θ and another measuring the position of the cart x. Design a controller for this system such that the angle of the pendulum can be controlled and that the closed loop behaves appropriately in presence of disturbances.
